@@ -1,0 +1,13 @@
+name: model_env
+channels:
+  - defaults
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.9
+  - numpy
+  - matplotlib
+  - pip
+  - pip:
+    - torch
+    - torchvision
